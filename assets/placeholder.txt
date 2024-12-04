@@ -1,0 +1,16 @@
+{
+  "default_model": "text-davinci-003",
+  "max_tokens": 150,
+  "temperature": 0.7,
+  "sample_prompts": [
+    {
+      "prompt": "Translate 'Hello, world!' to Spanish",
+      "expected_output": "Hola, mundo!"
+    },
+    {
+      "prompt": "Summarize the plot of Hamlet",
+      "expected_output": "A prince seeks revenge for his father's murder."
+    }
+  ]
+}
+```
